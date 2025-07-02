@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Bear - ACA Health Insurance Made Simple | Affordable Coverage Options</title>
+    <meta name="description" content="Policy Bear helps you find affordable ACA health insurance plans with subsidies. Licensed agents, easy enrollment, and supplemental coverage options available.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .bg-primary { background-color: #1e3a8a; }
+        .bg-secondary { background-color: #0891b2; }
+        .text-primary { color: #1e3a8a; }
+        .text-secondary { color: #0891b2; }
+        .border-primary { border-color: #1e3a8a; }
+        .border-secondary { border-color: #0891b2; }
+        
+        .smooth-scroll { scroll-behavior: smooth; }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0891b2 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0891b2 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(30, 58, 138, 0.3);
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #0891b2;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #0891b2;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .progress-bar {
+            height: 4px;
+            background: linear-gradient(90deg, #1e3a8a 0%, #0891b2 100%);
+            border-radius: 2px;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-padding { padding: 1rem; }
+            .mobile-text { font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 smooth-scroll">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <a href="#home" class="text-primary text-2xl font-bold">
+                        <h1 class="text-2xl font-bold text-primary">
+                            <i class="fas fa-shield-alt mr-2"></i>Policy Bear
+                        </h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="nav-link text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="#about" class="nav-link text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#aca-hub" class="nav-link text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium">ACA Plans</a>
+                        <a href="#supplemental" class="nav-link text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium">Supplemental</a>
+                        <a href="#contact" class="nav-link text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium">Contact</a>
+                        <a href="tel:+844765-2327" class="btn-primary text-white px-4 py-2 rounded-lg text-sm font-medium">
+                            <i class="fas fa-phone mr-2"></i>Call Now
+                        </a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-secondary">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                        Find Affordable ACA Health Insurance in Minutes
+                    </h1>
+                    <p class="text-xl mb-8 opacity-90">
+                        Get free quotes, qualify for subsidies up to $700/month, and enroll with licensed agents. Your health coverage simplified.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition duration-300">
+                            <i class="fas fa-calculator mr-2"></i>Get Free Quotes Now
+                        </button>
+                        <a href="tel:+844765-2327">
+                        <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-primary transition duration-300">
+                            <i class="fas fa-phone mr-2"></i>Call: (844) POL-BEAR
+                        </button>
+                        </a>
+                    </div>
+                    <div class="mt-8 flex items-center space-x-6 text-sm">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle mr-2 text-green-300"></i>
+                            <span>Licensed Agents</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-shield-alt mr-2 text-green-300"></i>
+                            <span>HIPAA Compliant</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-clock mr-2 text-green-300"></i>
+                            <span>Quick Enrollment</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-white rounded-2xl p-8 shadow-2xl">
+                        <h3 class="text-2xl font-bold text-primary mb-6">Quick Quote Form</h3>
+                        <form class="space-y-4">
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Zip Code</label>
+                                <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent" placeholder="Enter your zip code">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Age</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent" style="color: #1e3a8a;">
+                                    <option>Select your age</option>
+                                    <option>18-25</option>
+                                    <option>26-35</option>
+                                    <option>36-45</option>
+                                    <option>46-55</option>
+                                    <option>56-64</option>
+                                    <option>65+</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Household Income</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent">
+                                    <option>Select income range</option>
+                                    <option>Under $30,000</option>
+                                    <option>$30,000 - $50,000</option>
+                                    <option>$50,000 - $75,000</option>
+                                    <option>$75,000+</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full btn-primary text-white py-3 rounded-lg font-semibold">
+                                See My Plans & Savings
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">How Policy Bear Works</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Get enrolled in affordable ACA health insurance in three simple steps
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center card-hover p-8">
+                    <div class="bg-secondary text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-search text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">1. Compare Plans</h3>
+                    <p class="text-gray-600">
+                        Enter your information and instantly compare ACA marketplace plans. See what subsidies you qualify for.
+                    </p>
+                </div>
+                <div class="text-center card-hover p-8">
+                    <div class="bg-secondary text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-user-md text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">2. Expert Guidance</h3>
+                    <p class="text-gray-600">
+                        Speak with licensed insurance agents who understand ACA plans and can help you choose the right coverage.
+                    </p>
+                </div>
+                <div class="text-center card-hover p-8">
+                    <div class="bg-secondary text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-clipboard-check text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-primary mb-4">3. Fast Enrollment</h3>
+                    <p class="text-gray-600">
+                        Complete your enrollment quickly and securely. Start using your new health insurance right away.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits of Policy Bear -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">Why Choose Policy Bear?</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    We make health insurance simple, affordable, and accessible for everyone
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-dollar-sign text-3xl text-secondary mb-4"></i>
+                    <h3 class="font-bold text-lg text-primary mb-2">Save Money</h3>
+                    <p class="text-gray-600 text-sm">Qualify for subsidies up to $700/month on ACA plans</p>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-certificate text-3xl text-secondary mb-4"></i>
+                    <h3 class="font-bold text-lg text-primary mb-2">Licensed Agents</h3>
+                    <p class="text-gray-600 text-sm">Work with certified professionals who know insurance</p>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-mobile-alt text-3xl text-secondary mb-4"></i>
+                    <h3 class="font-bold text-lg text-primary mb-2">Mobile First</h3>
+                    <p class="text-gray-600 text-sm">Optimized for mobile devices and busy lifestyles</p>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-lock text-3xl text-secondary mb-4"></i>
+                    <h3 class="font-bold text-lg text-primary mb-2">Secure & Private</h3>
+                    <p class="text-gray-600 text-sm">HIPAA compliant with bank-level security</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACA Subsidy Explainer -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-primary mb-6">
+                        You May Qualify for Huge Savings
+                    </h2>
+                    <p class="text-xl text-gray-600 mb-8">
+                        The Affordable Care Act provides premium subsidies to help make health insurance affordable. Most people qualify for some level of financial assistance.
+                    </p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Up to $700/month in premium subsidies</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Reduced deductibles and copays</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span class="text-gray-700">Available for income up to $54,360 (single) / $111,000 (family of 4)</span>
+                        </div>
+                    </div>
+                    <button class="btn-primary text-white px-8 py-4 rounded-lg font-semibold">
+                        <i class="fas fa-calculator mr-2"></i>Check My Eligibility
+                    </button>
+                </div>
+                <div class="bg-gradient-to-br from-blue-50 to-teal-50 rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold text-primary mb-6 text-center">Subsidy Calculator</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Annual Income</label>
+                            <input type="range" min="20000" max="100000" value="40000" class="w-full" id="income-slider">
+                            <div class="flex justify-between text-sm text-gray-600 mt-1">
+                                <span>$20k</span>
+                                <span id="income-display" class="font-bold text-primary">$40,000</span>
+                                <span>$100k</span>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Family Size</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>1 person</option>
+                                <option>2 people</option>
+                                <option>3 people</option>
+                                <option>4 people</option>
+                                <option>5+ people</option>
+                            </select>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 border-l-4 border-secondary">
+                            <h4 class="font-bold text-primary mb-2">Estimated Monthly Savings:</h4>
+                            <p class="text-3xl font-bold text-secondary" id="savings-display">$425</p>
+                            <p class="text-sm text-gray-600">Based on average marketplace plans</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">What Our Members Say</h2>
+                <p class="text-xl text-gray-600">Real stories from real people who found affordable coverage</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Policy Bear saved me over $300 per month on my health insurance. The agent was so helpful in explaining all my options."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            SM
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary">Sarah M.</h4>
+                            <p class="text-gray-500 text-sm">Austin, TX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Finally found a company that makes health insurance simple. The whole process took less than 30 minutes."
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            JR
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary">James R.</h4>
+                            <p class="text-gray-500 text-sm">Denver, CO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg p-8 shadow-lg card-hover">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Great customer service and they helped me understand all the benefits. I'm saving $400 monthly now!"
+                    </p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            ML
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-primary">Maria L.</h4>
+                            <p class="text-gray-500 text-sm">Phoenix, AZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-primary mb-6">About Policy Bear</h2>
+                    <p class="text-xl text-gray-600 mb-6">
+                        We're a modern, consumer-first ACA health insurance agency dedicated to making affordable health coverage accessible to everyone.
+                    </p>
+                    <p class="text-gray-600 mb-8">
+                        Founded by insurance professionals who were frustrated with the complexity of the health insurance marketplace, Policy Bear was created to simplify the enrollment process and help Americans find the coverage they need at prices they can afford.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-secondary mb-2">50K+</div>
+                            <div class="text-gray-600">Members Enrolled</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-secondary mb-2">$15M+</div>
+                            <div class="text-gray-600">Total Savings</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-primary mb-4">Our Mission</h3>
+                        <p class="text-gray-600">
+                            To democratize access to affordable health insurance by simplifying the ACA marketplace and providing expert guidance to every American who needs coverage.
+                        </p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-primary mb-4">Licensed & Compliant</h3>
+                        <div class="space-y-2">
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Licensed in all 50 states</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">HIPAA compliant data handling</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">BBB A+ rated business</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACA Health Insurance Hub -->
+    <section id="aca-hub" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">ACA Health Insurance Hub</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Everything you need to know about ACA marketplace plans and enrollment
+                </p>
+            </div>
+
+            <!-- Internal Navigation -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <a href="#marketplace-plans" class="bg-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-primary font-medium">
+                    <i class="fas fa-list-ul mr-2"></i>Marketplace Plans
+                </a>
+                <a href="#enrollment-guide" class="bg-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-primary font-medium">
+                    <i class="fas fa-book mr-2"></i>Enrollment Guide
+                </a>
+                <a href="#metal-tiers" class="bg-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-primary font-medium">
+                    <i class="fas fa-layer-group mr-2"></i>Metal Tiers
+                </a>
+                <a href="#essential-benefits" class="bg-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition duration-300 text-primary font-medium">
+                    <i class="fas fa-heartbeat mr-2"></i>Essential Benefits
+                </a>
+            </div>
+
+            <!-- ACA Marketplace Plans -->
+            <div id="marketplace-plans" class="mb-16">
+                <h3 class="text-3xl font-bold text-primary mb-8 text-center">ACA Marketplace Plans</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg p-8 shadow-lg">
+                        <h4 class="text-2xl font-bold text-primary mb-4">What Are ACA Plans?</h4>
+                        <p class="text-gray-600 mb-6">
+                            Affordable Care Act (ACA) plans are comprehensive health insurance policies that cover essential health benefits and cannot deny coverage based on pre-existing conditions.
+                        </p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>No denial for pre-existing conditions</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>Essential health benefits covered</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>Preventive care at no cost</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-green-500 mr-3"></i>
+                                <span>Subsidies available based on income</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-lg p-8 shadow-lg">
+                        <h4 class="text-2xl font-bold text-primary mb-4">Plan Types Available</h4>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-yellow-500 pl-4">
+                                <h5 class="font-bold text-gray-800">HMO Plans</h5>
+                                <p class="text-sm text-gray-600">Lower costs, network restrictions</p>
+                            </div>
+                            <div class="border-l-4 border-blue-500 pl-4">
+                                <h5 class="font-bold text-gray-800">PPO Plans</h5>
+                                <p class="text-sm text-gray-600">More flexibility, higher costs</p>
+                            </div>
+                            <div class="border-l-4 border-green-500 pl-4">
+                                <h5 class="font-bold text-gray-800">EPO Plans</h5>
+                                <p class="text-sm text-gray-600">Network-based, no referrals needed</p>
+                            </div>
+                            <div class="border-l-4 border-purple-500 pl-4">
+                                <h5 class="font-bold text-gray-800">POS Plans</h5>
+                                <p class="text-sm text-gray-600">Hybrid of HMO and PPO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Enrollment Guide -->
+            <div id="enrollment-guide" class="mb-16">
+                <h3 class="text-3xl font-bold text-primary mb-8 text-center">Step-by-Step Enrollment Guide</h3>
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-lg p-6 shadow-lg text-center card-hover">
+                        <div class="bg-secondary text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+                        <h4 class="font-bold text-primary mb-3">Gather Documents</h4>
+                        <p class="text-gray-600 text-sm">Social Security cards, tax returns, pay stubs, and immigration documents if applicable</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 shadow-lg text-center card-hover">
+                        <div class="bg-secondary text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+                        <h4 class="font-bold text-primary mb-3">Compare Plans</h4>
+                        <p class="text-gray-600 text-sm">Review available plans, compare costs, networks, and benefits that meet your needs</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 shadow-lg text-center card-hover">
+                        <div class="bg-secondary text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+                        <h4 class="font-bold text-primary mb-3">Apply & Enroll</h4>
+                        <p class="text-gray-600 text-sm">Complete your application and choose your plan during open enrollment or qualifying events</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 shadow-lg text-center card-hover">
+                        <div class="bg-secondary text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">4</div>
+                        <h4 class="font-bold text-primary mb-3">Pay & Activate</h4>
+                        <p class="text-gray-600 text-sm">Pay your first premium and receive confirmation of your coverage start date</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Metal Tier Comparison -->
+            <div id="metal-tiers" class="mb-16">
+                <h3 class="text-3xl font-bold text-primary mb-8 text-center">Metal Tier Comparison</h3>
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <div class="bg-yellow-600 text-white p-4 text-center">
+                            <h4 class="text-xl font-bold">Bronze</h4>
+                            <p class="text-sm opacity-90">60% Coverage</p>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-4">
+                                <div class="text-2xl font-bold text-primary">$350</div>
+                                <div class="text-gray-600 text-sm">avg/month</div>
+                            </div>
+                            <ul class="space-y-2 text-sm">
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Lowest monthly premium</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Higher deductibles</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Good for healthy individuals</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover border-2 border-secondary">
+                        <div class="bg-gray-400 text-white p-4 text-center">
+                            <h4 class="text-xl font-bold">Silver</h4>
+                            <p class="text-sm opacity-90">70% Coverage</p>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-4">
+                                <div class="text-2xl font-bold text-primary">$450</div>
+                                <div class="text-gray-600 text-sm">avg/month</div>
+                            </div>
+                            <ul class="space-y-2 text-sm">
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Most popular choice</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Best subsidy value</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Balanced costs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <div class="bg-yellow-500 text-white p-4 text-center">
+                            <h4 class="text-xl font-bold">Gold</h4>
+                            <p class="text-sm opacity-90">80% Coverage</p>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-4">
+                                <div class="text-2xl font-bold text-primary">$580</div>
+                                <div class="text-gray-600 text-sm">avg/month</div>
+                            </div>
+                            <ul class="space-y-2 text-sm">
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Higher monthly premium</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Lower out-of-pocket costs</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Good for regular care</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover">
+                        <div class="bg-gray-800 text-white p-4 text-center">
+                            <h4 class="text-xl font-bold">Platinum</h4>
+                            <p class="text-sm opacity-90">90% Coverage</p>
+                        </div>
+                        <div class="p-6">
+                            <div class="text-center mb-4">
+                                <div class="text-2xl font-bold text-primary">$720</div>
+                                <div class="text-gray-600 text-sm">avg/month</div>
+                            </div>
+                            <ul class="space-y-2 text-sm">
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Highest monthly premium</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Lowest deductibles</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-green-500 mr-2"></i>
+                                    <span>Best for frequent care</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Essential Health Benefits -->
+            <div id="essential-benefits" class="mb-16">
+                <h3 class="text-3xl font-bold text-primary mb-8 text-center">Essential Health Benefits</h3>
+                <div class="bg-white rounded-lg shadow-lg p-8">
+                    <p class="text-center text-gray-600 mb-8">All ACA plans must cover these 10 essential health benefits:</p>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+                        <div class="text-center">
+                            <i class="fas fa-stethoscope text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Ambulatory Care</h4>
+                            <p class="text-sm text-gray-600">Doctor visits and outpatient services</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-hospital text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Emergency Services</h4>
+                            <p class="text-sm text-gray-600">Emergency room visits and urgent care</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-bed text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Hospitalization</h4>
+                            <p class="text-sm text-gray-600">Inpatient hospital stays and surgery</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-baby text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Maternity Care</h4>
+                            <p class="text-sm text-gray-600">Pregnancy and newborn care</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-brain text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Mental Health</h4>
+                            <p class="text-sm text-gray-600">Mental health and substance abuse</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-pills text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Prescription Drugs</h4>
+                            <p class="text-sm text-gray-600">Prescription medication coverage</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-crutch text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Rehabilitative Care</h4>
+                            <p class="text-sm text-gray-600">Physical and occupational therapy</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-vials text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Lab Services</h4>
+                            <p class="text-sm text-gray-600">Laboratory tests and diagnostics</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-shield-virus text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Preventive Care</h4>
+                            <p class="text-sm text-gray-600">Wellness visits and screenings</p>
+                        </div>
+                        <div class="text-center">
+                            <i class="fas fa-child text-3xl text-secondary mb-3"></i>
+                            <h4 class="font-bold text-primary mb-2">Pediatric Services</h4>
+                            <p class="text-sm text-gray-600">Children's dental and vision care</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supplemental Insurance -->
+    <section id="supplemental" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">Supplemental Insurance Options</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Enhance your ACA coverage with additional protection for specific needs
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-tooth text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-2xl font-bold text-primary">Dental Insurance</h3>
+                    </div>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Preventive care covered 100%</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Basic procedures 80% coverage</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Major work 50% coverage</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Large provider networks</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary mb-2">Starting at $25/month</div>
+                        <button class="btn-primary text-white px-6 py-2 rounded-lg font-medium">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-eye text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-2xl font-bold text-primary">Vision Insurance</h3>
+                    </div>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Annual eye exams covered</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Glasses and contact discounts</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>LASIK surgery savings</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Family coverage available</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary mb-2">Starting at $15/month</div>
+                        <button class="btn-primary text-white px-6 py-2 rounded-lg font-medium">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-ambulance text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-2xl font-bold text-primary">Accident Insurance</h3>
+                    </div>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Cash benefits for accidents</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>ER visit coverage</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Fracture and dislocation benefits</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>24/7 coverage anywhere</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary mb-2">Starting at $12/month</div>
+                        <button class="btn-primary text-white px-6 py-2 rounded-lg font-medium">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-hospital text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-2xl font-bold text-primary">Hospital Indemnity</h3>
+                    </div>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Daily hospital cash benefits</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>ICU additional benefits</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Outpatient surgery coverage</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>No network restrictions</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary mb-2">Starting at $35/month</div>
+                        <button class="btn-primary text-white px-6 py-2 rounded-lg font-medium">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-heart text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-2xl font-bold text-primary">Critical Illness</h3>
+                    </div>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Lump sum cash benefit</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Cancer, heart attack, stroke</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Use funds for any purpose</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Family coverage options</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary mb-2">Starting at $45/month</div>
+                        <button class="btn-primary text-white px-6 py-2 rounded-lg font-medium">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 rounded-lg p-8 shadow-lg card-hover">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-mobile-alt text-4xl text-secondary mb-4"></i>
+                        <h3 class="text-2xl font-bold text-primary">Telehealth Services</h3>
+                    </div>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>24/7 doctor consultations</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Mental health counseling</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>Prescription delivery</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            <span>No copays or deductibles</span>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-secondary mb-2">Starting at $20/month</div>
+                        <button class="btn-primary text-white px-6 py-2 rounded-lg font-medium">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 hero-gradient text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Ready to Get Started?</h2>
+                <p class="text-xl opacity-90 max-w-3xl mx-auto">
+                    Speak with a licensed agent today and find the perfect health insurance plan for your needs and budget
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-8">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Phone</h4>
+                                <a href="tel:+844765-2327"><p class="opacity-90">(844) POL-BEAR (1-800-765-4297)</p></a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Email</h4>
+                                <p class="opacity-90">help@policybear.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Hours</h4>
+                                <p class="opacity-90">Monday - Friday: 8AM - 8PM EST<br>Saturday: 9AM - 5PM EST</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-comments text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Live Chat</h4>
+                                <p class="opacity-90">Available during business hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 pt-8 border-t border-white border-opacity-20">
+                        <h4 class="font-bold mb-4">Why Call Policy Bear?</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-3 text-green-300"></i>
+                                <span class="opacity-90">Licensed agents in all 50 states</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-3 text-green-300"></i>
+                                <span class="opacity-90">No pressure, just honest advice</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-3 text-green-300"></i>
+                                <span class="opacity-90">Free consultation and quotes</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle mr-3 text-green-300"></i>
+                                <span class="opacity-90">Help with enrollment process</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-white bg-opacity-10 rounded-lg p-8">
+                    <h3 class="text-2xl font-bold mb-6">Get Your Free Quote</h3>
+                    <form class="space-y-4">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <input type="text" placeholder="First Name" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg text-white placeholder-white placeholder-opacity-70 focus:bg-opacity-30 focus:outline-none">
+                            <input type="text" placeholder="Last Name" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg text-white placeholder-white placeholder-opacity-70 focus:bg-opacity-30 focus:outline-none">
+                        </div>
+                        <input type="email" placeholder="Email Address" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg text-white placeholder-white placeholder-opacity-70 focus:bg-opacity-30 focus:outline-none">
+                        <input type="tel" placeholder="Phone Number" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg text-white placeholder-white placeholder-opacity-70 focus:bg-opacity-30 focus:outline-none">
+                        <input type="text" placeholder="Zip Code" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg text-white placeholder-white placeholder-opacity-70 focus:bg-opacity-30 focus:outline-none">
+                        <select class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg text-white focus:bg-opacity-30 focus:outline-none">
+                            <option>Select your age</option>
+                            <option>18-25</option>
+                            <option>26-35</option>
+                            <option>36-45</option>
+                            <option>46-55</option>
+                            <option>56-64</option>
+                            <option>65+</option>
+                        </select>
+                        <textarea placeholder="Tell us about your health insurance needs (optional)" rows="3" class="w-full px-4 py-3 bg-white bg-opacity-20 border border-white border-opacity-30 rounded-lg text-white placeholder-white placeholder-opacity-70 focus:bg-opacity-30 focus:outline-none resize-none"></textarea>
+                        <div class="flex items-center text-sm">
+                            <input type="checkbox" class="mr-3" id="consent">
+                            <label for="consent" class="opacity-90">
+                                I consent to receive calls and texts about ACA health insurance. Standard rates may apply.
+                            </label>
+                        </div>
+                        <button type="submit" class="w-full bg-white text-primary py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                            Get My Free Quote Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources & Tools -->
+    <section id="resources" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-primary mb-4">Resources & Tools</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Everything you need to make informed decisions about your health insurance
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-blog text-3xl text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold text-primary mb-3">Health Insurance Blog</h3>
+                    <p class="text-gray-600 mb-4 text-sm">Latest news, tips, and insights about ACA health insurance</p>
+                    <a href="#" class="text-secondary font-medium hover:underline">Read Articles</a>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-question-circle text-3xl text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold text-primary mb-3">FAQ</h3>
+                    <p class="text-gray-600 mb-4 text-sm">Answers to the most common health insurance questions</p>
+                    <a href="#" class="text-secondary font-medium hover:underline">View FAQ</a>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-calendar-alt text-3xl text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold text-primary mb-3">Enrollment Deadlines</h3>
+                    <p class="text-gray-600 mb-4 text-sm">Important dates for ACA enrollment and special events</p>
+                    <a href="#" class="text-secondary font-medium hover:underline">Check Dates</a>
+                </div>
+                <div class="bg-white rounded-lg p-6 shadow-lg card-hover text-center">
+                    <i class="fas fa-book text-3xl text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold text-primary mb-3">Insurance Glossary</h3>
+                    <p class="text-gray-600 mb-4 text-sm">Understand common insurance terms and definitions</p>
+                    <a href="#" class="text-secondary font-medium hover:underline">Browse Terms</a>
+                </div>
+            </div>
+
+            <!-- Quick Tools -->
+            <div class="mt-16">
+                <h3 class="text-3xl font-bold text-primary text-center mb-12">Quick Tools</h3>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg p-8 shadow-lg">
+                        <h4 class="text-2xl font-bold text-primary mb-4 text-center">Subsidy Calculator</h4>
+                        <p class="text-gray-600 mb-6 text-center">Estimate your premium tax credits and cost-sharing reductions</p>
+                        <div class="space-y-4">
+                            <input type="number" placeholder="Annual Income" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Family Size</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5+</option>
+                            </select>
+                            <button class="w-full btn-primary text-white py-3 rounded-lg font-semibold">Calculate Savings</button>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-8 shadow-lg">
+                        <h4 class="text-2xl font-bold text-primary mb-4 text-center">Plan Finder</h4>
+                        <p class="text-gray-600 mb-6 text-center">Find ACA plans available in your area with current pricing</p>
+                        <div class="space-y-4">
+                            <input type="text" placeholder="Your Zip Code" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Your Age</option>
+                                <option>18-25</option>
+                                <option>26-35</option>
+                                <option>36-45</option>
+                                <option>46-55</option>
+                                <option>56-64</option>
+                                <option>65+</option>
+                            </select>
+                            <button class="w-full btn-primary text-white py-3 rounded-lg font-semibold">Find Plans</button>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-8 shadow-lg">
+                        <h4 class="text-2xl font-bold text-primary mb-4 text-center">Doctor Lookup</h4>
+                        <p class="text-gray-600 mb-6 text-center">Check if your doctors are covered by specific insurance plans</p>
+                        <div class="space-y-4">
+                            <input type="text" placeholder="Doctor Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                            <input type="text" placeholder="City, State" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Select Insurance Plan</option>
+                                <option>Blue Cross Blue Shield</option>
+                                <option>Aetna</option>
+                                <option>United Health</option>
+                                <option>Humana</option>
+                            </select>
+                            <button class="w-full btn-primary text-white py-3 rounded-lg font-semibold">Search Network</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter Signup -->
+            <div class="mt-16 bg-primary rounded-lg p-8 text-white text-center">
+                <h3 class="text-2xl font-bold mb-4">Stay Informed</h3>
+                <p class="mb-6 opacity-90">Get the latest ACA updates, enrollment reminders, and money-saving tips delivered to your inbox</p>
+                <div class="max-w-md mx-auto flex gap-4">
+                    <input type="email" placeholder="Your email address" class="flex-1 px-4 py-3 rounded-lg text-gray-800">
+                    <button class="bg-secondary text-white px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition duration-300">Subscribe</button>
+                </div>
+                <p class="text-sm opacity-75 mt-4">No spam, unsubscribe anytime. Privacy policy protected.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">
+                        <i class="fas fa-shield-alt mr-2 text-secondary"></i>Policy Bear
+                    </h3>
+                    <p class="text-gray-300 mb-4">
+                        Making ACA health insurance simple, affordable, and accessible for all Americans.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-secondary transition duration-300">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-secondary transition duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-secondary transition duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-300 hover:text-secondary transition duration-300">
+                            <i class="fab fa-youtube text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Insurance Plans</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">ACA Marketplace Plans</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Dental Insurance</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Vision Insurance</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Supplemental Coverage</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Critical Illness</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Resources</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">ACA Enrollment Guide</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Subsidy Calculator</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">FAQ</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition duration-300">Insurance Glossary</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-300">
+                            <a href="tel:+844765-2327"><i class="fas fa-phone mr-2"></i>(844) POL-BEAR</a>
+                        </li>
+                        <li class="text-gray-300">
+                            <i class="fas fa-envelope mr-2"></i>help@policybear.com
+                        </li>
+                        <li class="text-gray-300">
+                            <i class="fas fa-clock mr-2"></i>Mon-Fri: 8AM-8PM EST
+                        </li>
+                        <li class="text-gray-300">
+                            <i class="fas fa-comments mr-2"></i>Live Chat Available
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-gray-300 text-sm mb-4 md:mb-0">
+                        © 2024 Policy Bear. All rights reserved. Licensed insurance agency.
+                    </div>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="privacypolicy.html" class="text-gray-300 hover:text-white transition duration-300">Privacy Policy</a>
+                        <a href="termsofservice.html" class="text-gray-300 hover:text-white transition duration-300">Terms of Service</a>
+                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">HIPAA Notice</a>
+                        <a href="#" class="text-gray-300 hover:text-white transition duration-300">Accessibility</a>
+                    </div>
+                </div>
+                <div class="mt-4 text-center text-gray-400 text-xs">
+                    Policy Bear is a licensed insurance agency. We are not affiliated with or endorsed by the U.S. Government or the federal marketplace. This website provides general information about health insurance and is not intended as specific insurance advice.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactive Elements -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Income slider functionality
+        const incomeSlider = document.getElementById('income-slider');
+        const incomeDisplay = document.getElementById('income-display');
+        const savingsDisplay = document.getElementById('savings-display');
+
+        if (incomeSlider && incomeDisplay && savingsDisplay) {
+            incomeSlider.addEventListener('input', function() {
+                const income = parseInt(this.value);
+                incomeDisplay.textContent = `$${income.toLocaleString()}`;
+                
+                // Simple subsidy calculation (this would be more complex in reality)
+                let savings = 0;
+                if (income < 30000) savings = 650;
+                else if (income < 40000) savings = 500;
+                else if (income < 50000) savings = 350;
+                else if (income < 60000) savings = 200;
+                else if (income < 70000) savings = 100;
+                else savings = 0;
+                
+                savingsDisplay.textContent = `$${savings}`;
+            });
+        }
+
+        // Form submission handling
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your interest! A licensed agent will contact you shortly.');
+            });
+        });
+
+        // Mobile menu toggle (if needed)
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', function() {
+                // Mobile menu functionality would go here
+                alert('Mobile menu would open here');
+            });
+        }
+
+        // Add loading states to buttons
+        document.querySelectorAll('button[type="submit"]').forEach(button => {
+            button.addEventListener('click', function() {
+                const originalText = this.textContent;
+                this.textContent = 'Processing...';
+                this.disabled = true;
+                
+                setTimeout(() => {
+                    this.textContent = originalText;
+                    this.disabled = false;
+                }, 2000);
+            });
+        });
+
+        // Intersection Observer for animations (optional)
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe cards for animation
+        document.querySelectorAll('.card-hover').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
